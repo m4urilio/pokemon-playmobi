@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>PlayMobi Pokemon - Jogue +50 Pokemon no Celular em 1 Minuto!</title>
+    <meta name="description" content="Jogue +50 jogos de Pokemon no celular em 1 minuto! Emulador PlayMobi - so baixar e jogar.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Countdown Bar -->
+    <div class="countdown-bar">
+        <p>Essa promocao acaba hoje em <span class="timer" id="timer">27:00</span></p>
+    </div>
+
+    <!-- Main Container -->
+    <main class="container">
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="logo-wrapper">
+                <div class="logo-text">
+                    <span class="logo-play">PLAY</span>
+                    <span class="logo-mobi">MOBI</span>
+                </div>
+                <small class="logo-sub">O MELHOR EMULADOR DE POKEMON</small>
+            </div>
+            <h1>JOGUE <span class="highlight">+50 POKEMON</span> NO CELULAR EM 1 MINUTO!</h1>
+            <p class="subtitle">sem instalar nada complicado, so baixar e jogar no emulador PlayMobi, veja abaixo!</p>
+        </section>
+
+        <!-- Video Section -->
+        <section class="video-section">
+            <div class="video-glow-border">
+                <div class="video-inner" id="videoInner">
+                    <div class="video-facade" id="videoFacade">
+                        <img src="https://img.youtube.com/vi/5qjRBReNZ1w/hqdefault.jpg"
+                             alt="Assista o video"
+                             class="video-thumb"
+                             loading="eager">
+                        <button class="play-btn" aria-label="Reproduzir video">
+                            <div class="play-btn-circle">
+                                <svg viewBox="0 0 24 24" width="32" height="32" fill="#fff">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Card -->
+        <section class="pricing-section fade-up">
+            <div class="pricing-card glass-card">
+                <h2 class="pricing-title">Compre abaixo!</h2>
+                <p class="pricing-product">EMULADOR PLAYMOBI POKEMON</p>
+                <div class="pricing-values">
+                    <span class="old-price">47,00 R$</span>
+                    <span class="new-price">R$ 4,99</span>
+                </div>
+                <ul class="benefits-list">
+                    <li><span class="check-icon">&#10003;</span> +50 Jogos</li>
+                    <li><span class="check-icon">&#10003;</span> Roda em qualquer celular</li>
+                    <li><span class="check-icon">&#10003;</span> Garantia de reembolso</li>
+                    <li><span class="check-icon">&#10003;</span> Suporte 24/7</li>
+                    <li><span class="check-icon">&#10003;</span> Atualizacoes Mensais</li>
+                </ul>
+                <button class="cta-btn pulse-glow" id="buyBtn">QUERO JOGAR!</button>
+            </div>
+        </section>
+
+        <!-- Social Proof -->
+        <section class="social-proof fade-up">
+            <div class="stars-row">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+            <p class="players-count">+ DE 12 MIL PLAYERS ATIVOS</p>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials-section fade-up">
+            <h2 class="section-title">RELATOS DE CLIENTES</h2>
+            <div class="testimonials-carousel" id="carousel">
+                <div class="testimonial-card glass-card">
+                    <div class="wa-chat">
+                        <div class="wa-bubble received">
+                            <p>Ja esta funcionando aqui &#128525;</p>
+                            <span class="wa-time">16:35</span>
+                        </div>
+                        <div class="wa-bubble received">
+                            <p>Boa demais &#129321;</p>
+                            <span class="wa-time">16:38</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-card">
+                    <div class="wa-chat">
+                        <div class="wa-bubble received">
+                            <p>Esse ai e muito bom! jogo ele direto</p>
+                            <span class="wa-time">16:38</span>
+                        </div>
+                        <div class="wa-bubble received">
+                            <p>Rodando liso, valeu muito a pena</p>
+                            <span class="wa-time">16:40</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-card">
+                    <div class="wa-chat">
+                        <div class="wa-bubble received">
+                            <p>Cara que negocio incrivel, funciona de verdade! &#128293;</p>
+                            <span class="wa-time">17:15</span>
+                        </div>
+                        <div class="wa-bubble received">
+                            <p>To jogando Pokemon Emerald agora, roda perfeito</p>
+                            <span class="wa-time">17:18</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-dots" id="carouselDots"></div>
+        </section>
+
+        <!-- What You Receive -->
+        <section class="receive-section fade-up">
+            <h2 class="section-title">o que voce recebe?</h2>
+            <ul class="receive-list">
+                <li>
+                    <span class="check-circle">&#10003;</span>
+                    <p>+50 jogos de pokemon, desde o mais antigo do game boy ate os do Nintendo Switch, que roda em qualquer celular</p>
+                </li>
+                <li>
+                    <span class="check-circle">&#10003;</span>
+                    <p>acesso vitalicio</p>
+                </li>
+                <li>
+                    <span class="check-circle">&#10003;</span>
+                    <p>todas hackrooms</p>
+                </li>
+                <li>
+                    <span class="check-circle">&#10003;</span>
+                    <p>traducao completa</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq-section fade-up">
+            <h2 class="section-title faq-main-title">tire suas duvidas abaixo</h2>
+            <h3 class="faq-subtitle">Perguntas Frequentes</h3>
+            <div class="faq-list">
+                <div class="faq-item glass-card">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>como funciona?</span>
+                        <span class="faq-chevron">&#8250;</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Apos a compra, voce recebe acesso instantaneo ao emulador PlayMobi com +50 jogos de Pokemon prontos para jogar. E so baixar no celular e comecar!</p>
+                    </div>
+                </div>
+                <div class="faq-item glass-card">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>qual o prazo de entrega?</span>
+                        <span class="faq-chevron">&#8250;</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Imediato! Voce recebe o acesso no seu e-mail em ate 2 minutos apos a confirmacao do pagamento.</p>
+                    </div>
+                </div>
+                <div class="faq-item glass-card">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>quais jogos vem?</span>
+                        <span class="faq-chevron">&#8250;</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Vem todos os Pokemon classicos do Game Boy (Red, Blue, Yellow, Gold, Silver...) ate os mais recentes do Nintendo Switch (Sword, Shield, Scarlet, Violet...) e muito mais!</p>
+                    </div>
+                </div>
+                <div class="faq-item glass-card">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>e se eu nao gostar?</span>
+                        <span class="faq-chevron">&#8250;</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sem problemas! Oferecemos garantia total de reembolso. Se nao ficar satisfeito, devolvemos seu dinheiro.</p>
+                    </div>
+                </div>
+                <div class="faq-item glass-card">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>roda em qualquer celular?</span>
+                        <span class="faq-chevron">&#8250;</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! O PlayMobi roda perfeitamente em qualquer celular Android ou iPhone, mesmo os mais simples.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Order Bump Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-card">
+            <button class="modal-close" id="modalClose" aria-label="Fechar">&times;</button>
+            <span class="modal-badge">OPORTUNIDADE UNICA</span>
+            <h2 class="modal-title">UPGRADE PREMIUM</h2>
+            <div class="modal-price">
+                <span class="modal-price-value">R$ 9,99</span>
+                <span class="modal-price-method">NO PIX</span>
+            </div>
+            <div class="modal-includes">
+                <span class="includes-label">INCLUI:</span>
+                <ul>
+                    <li><span class="gold-check">&#10003;</span> +1000 JOGOS DE PS1, PS2, 3DS E SWITCH</li>
+                    <li><span class="gold-check">&#10003;</span> ACESSO PRA PC E CELULAR</li>
+                    <li><span class="gold-check">&#10003;</span> TODOS JOGOS ORGANIZADOS EM CATEGORIAS</li>
+                    <li><span class="gold-check">&#10003;</span> BAIXOU, ABRIU, JOGOU!</li>
+                </ul>
+            </div>
+            <a href="#LINK-CHECKOUT-PREMIUM" class="modal-cta-primary" id="premiumBtn">QUERO O ACESSO PREMIUM!</a>
+            <a href="#LINK-CHECKOUT-BASICO" class="modal-cta-secondary" id="basicBtn">quero so a oferta basica..</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
