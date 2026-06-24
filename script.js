@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         facade.addEventListener('click', function () {
             var iframe = document.createElement('iframe');
-            iframe.src = 'https://www.youtube.com/embed/5qjRBReNZ1w?autoplay=1&rel=0&modestbranding=1&playsinline=1';
+            iframe.src = 'https://www.youtube.com/embed/5qjRBReNZ1w?autoplay=1&rel=0&modestbranding=1&playsinline=1&controls=0&showinfo=0&fs=0&iv_load_policy=3&disablekb=1';
             iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
             iframe.allowFullscreen = true;
             iframe.loading = 'lazy';
