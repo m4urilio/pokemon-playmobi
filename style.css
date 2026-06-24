@@ -132,8 +132,8 @@ ul {
 }
 
 .logo-text {
-    font-size: 26px;
-    font-weight: 900;
+    font-size: 18px;
+    font-weight: 400;
     letter-spacing: 2px;
     line-height: 1;
 }
@@ -141,10 +141,12 @@ ul {
 .logo-play {
     color: var(--accent-green);
     text-shadow: 0 0 20px var(--accent-green-glow);
+    opacity: 0.7;
 }
 
 .logo-mobi {
     color: var(--text-primary);
+    opacity: 0.7;
 }
 
 .logo-sub {
@@ -549,6 +551,79 @@ ul {
     font-size: 15px;
     color: var(--text-secondary);
     line-height: 1.5;
+}
+
+/* ========================
+   GUARANTEE
+   ======================== */
+.guarantee-section {
+    padding-bottom: 40px;
+}
+
+.guarantee-card {
+    padding: 32px 24px;
+    text-align: center;
+    border-color: rgba(0, 230, 118, 0.12);
+}
+
+.guarantee-seal {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--accent-green), #00c853);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px var(--accent-green-glow), 0 0 60px rgba(0, 230, 118, 0.1);
+    animation: seal-glow 3s ease-in-out infinite;
+}
+
+@keyframes seal-glow {
+    0%, 100% { box-shadow: 0 0 20px var(--accent-green-glow); }
+    50% { box-shadow: 0 0 40px var(--accent-green-glow), 0 0 70px rgba(0, 230, 118, 0.12); }
+}
+
+.seal-inner {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border: 2px dashed rgba(7, 11, 20, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.seal-days {
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--bg-primary);
+    line-height: 1;
+}
+
+.seal-text {
+    font-size: 11px;
+    font-weight: 800;
+    color: var(--bg-primary);
+    letter-spacing: 2px;
+}
+
+.guarantee-title {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.guarantee-desc {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.guarantee-desc strong {
+    color: var(--text-primary);
 }
 
 /* ========================
